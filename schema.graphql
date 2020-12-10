@@ -1,0 +1,12 @@
+# A book has a title and an author
+type Book {
+  title: String
+  author: Author
+  genres: [Genre]
+}
+
+# An author has a name and a list of books
+type Author {
+  name: String
+  books: [Book]
+}
